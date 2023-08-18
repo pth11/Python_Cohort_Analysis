@@ -1,4 +1,6 @@
 # Python_Cohort_Analysis
+Please see the coding file attached or reach the link below:
+https://colab.research.google.com/drive/1U8vA5KmnwNfn0JHmAD7OZkWcbew8zp8p
 
 ## I. Introduction
 ### 1. Business question
