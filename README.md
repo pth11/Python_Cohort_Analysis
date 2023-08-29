@@ -9,6 +9,11 @@ Using Python to analyze transaction data from KPMG to evaluate user engagement f
 Dataset KPMG.xlsx includes one table containing transaction information of customers purchasing products in the year 2017
 ![image](https://github.com/thuhuongphan11/Python_Cohort_Analysis/assets/141643891/318c4c25-4f3e-4325-85a6-c31b1cce722f)
 
+- There are many missing values (in online_order, brand,.. columns) but it does not affect the cohort analysis result => temporarily ignore
+- Values in 'transaction_id' column are unique => there are no duplicate records in the dataset
+- We need to filter order_status = ‘Approved’ before cohort analysis
+   
+
 ### 3. Method: Cohort analysis
 #### Cohort analysis definition
 - Cohort analysis is a type of behavioral analytics in which you take a group of users, and analyze their usage patterns based on their shared traits to better track and understand their actions.
